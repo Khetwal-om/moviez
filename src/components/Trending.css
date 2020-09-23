@@ -1,0 +1,23 @@
+.trending {
+    flex: .2;
+
+    /* border-radius: 4px; */
+    /* padding: .2rem; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.trending__movies{
+    box-shadow: 0 2px 4px 2px #fff;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+.trending__upcoming{
+    box-shadow: 0 2px 4px 2px #fff;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
