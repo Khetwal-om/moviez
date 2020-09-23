@@ -38,7 +38,7 @@ class SideBar extends Component {
                 
                 <div className="sidebar">
                    <div className="logo">
-                     <img src={require('../images/movie.png')} /> <h1>Moviez</h1>
+                     <img src={require('../images/movie.png')}  alt=""/> <h1>Moviez</h1>
                    </div>
            
                     <Button  className="sidebarbutton"
