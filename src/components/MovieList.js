@@ -29,6 +29,7 @@ class MovieList extends Component {
         return (
         
            <div className="movielist">
+             <div> </div>
             {this.renderMovie()}
            </div>
             

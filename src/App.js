@@ -6,11 +6,12 @@ import Trending from './components/Trending'
 
 function App() {
     return (
-        <div className="app">
+         <div className="app">
+
             <SideBar />
             <MovieList />
             <Trending/>
-        </div>
+         </div>
     )
 }
 

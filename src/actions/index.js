@@ -22,7 +22,6 @@ export const fetchMyMovie = (genre)=> async dispatch => {
         dispatch({type: 'FETCH_MOVIE',payload: response.data.results})
     
 }
-
 // export const fetchRated = ()=> async dispatch => {
 //         const response=await apicall.get(TopRated)
 //         console.log(response)

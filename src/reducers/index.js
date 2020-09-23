@@ -14,7 +14,6 @@ export default fetchMovie
 
 
 
-
 // import { combineReducers} from 'redux'
 // import movieComedy from './movieComedy'
 // import movieRomantic from './movieRomantic'

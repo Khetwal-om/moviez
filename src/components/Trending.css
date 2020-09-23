@@ -1,23 +1,61 @@
 .trending {
-    flex: .2;
-
-    /* border-radius: 4px; */
-    /* padding: .2rem; */
-    display: flex;
-    flex-direction: column;
-
+    flex: .3;
+    overflow-y: scroll;
+        
 }
 
-.trending__movies{
-    box-shadow: 0 2px 4px 2px #fff;
-    margin: 4rem;
-    padding: 2rem;
-    border-radius: 10px;
 
+.trending::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trending {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+
+.trend {
+    width: 280px;
+    height: 225px;
+    position: relative;
+    margin: 2rem;
+    
+    overflow: hidden;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
-.trending__upcoming{
-    box-shadow: 0 2px 4px 2px #fff;
-    margin: 4rem;
-    padding: 2rem;
-    border-radius: 10px;
+
+.trend:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.trend:hover img {
+    transform: translateY(-20px);
+}
+
+.trend img {
+    position: absolute;
+    top: 0;
+    height: 110%;
+    z-index: -1;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.trend h3 {
+    color: white;
+    font-size: 30px;
+    margin: 20px 0 0 20px;
+    width: 190px;
+}
+
+.trend p {
+    color: rgba(255,255,255, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    align-self: end;
+    margin: 0 0 20px 20px;
 }

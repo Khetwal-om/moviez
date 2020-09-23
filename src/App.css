@@ -1,32 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    /* background: #065c6f; */
-    background: #FE7860;
-
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
 
 :root {
-    --light-orange: #FBE8A6;
+  --background-guy: #fff5da;
+  --ragin-beige: #fff5d7;
+  --coral-pink: #ff5e6c;
+  --sleuthe-yellow: #feb300;
+  --pink-leaf: #ffaaab;
+  --color-bluish: #331c30;
+  --light-orange: #FBE8A6;
     --dark-orange: #F4976C;
     --light-blue: #303C6C;
     --lighter-blue: #B4DFE5;
     --lightest-blue: #D2FDFF;   
-    --solarin-blue: #116466;
+    /* --solarin-blue: #116466; */
+    --solarin-blue:#6D4862;
 
     --darkest-color: #012d28;
     --second-color: #049a78;
@@ -35,8 +28,37 @@
     --fifth-color: #012d28;
     --sixth-color: #05D48E;
     --seventh-color: #D0FFE2;
+
+}
+body {
+  
+  font-family: 'Baloo Tammudu 2', cursive;
+  background: #FCF2D9;
+    
+  /* background: #FE7860; */
+  color: var(--solarin-blue);
+
+
 }
 
+/* .testingonwaters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.crux { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.crux img {
+  width: 60px;
+
+}
+.crux h4{
+  font-size: 4rem;
+} */
 
 .app{
     display: flex;
@@ -44,5 +66,8 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 10px;
-    color: #faf3dd;
+    color: var(--solarin-blue);
+      
 }
+
+

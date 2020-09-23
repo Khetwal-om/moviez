@@ -15,7 +15,7 @@ function MovieDetail({title,original_name,backdrop_path,poster_path,vote_count,r
                 <img src={`${base_url}${backdrop_path||poster_path}`} alt=""/>
             </div>
             <div className="moviedetail__title">
-                {title ||original_name}      <span> {release_date} </span>
+                {title ||original_name}  <FavoriteIcon />    <span> {release_date} </span>
             </div>
             <div className="moviedetail__description">
                 {vote_count}    <FavoriteIcon />

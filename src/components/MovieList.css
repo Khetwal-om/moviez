@@ -1,11 +1,9 @@
 .movielist {
     
-    flex: .5;
+    flex: .54;
     border-right: 1px solid var(--twitter-background);
     overflow-y: scroll;
 }
-
-
 
 .movielist::-webkit-scrollbar {
     display: none;
